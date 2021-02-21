@@ -12,7 +12,7 @@ public class JWTUtils {
     private static String SECRET = "token!Q@W#E$R";
 
     /**
-     * 生产token
+     * 生成token header.payload.signature
      */
     public static String getToken(Map<String, String> map) {
         JWTCreator.Builder builder = JWT.create();
