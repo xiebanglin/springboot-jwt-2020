@@ -8,9 +8,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 
-/**
- * Created by Chilly Cui on 2020/9/9.
- */
 @Service
 public class UserServiceImpl implements UserService {
 

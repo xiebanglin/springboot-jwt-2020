@@ -6,9 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * Created by Chilly Cui on 2020/9/9.
- */
 @RestController
 public class HelloController {
 
